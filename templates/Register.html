@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../static/Register.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <div class="child1">
+        <h1 style="margin-left: 5px">Meme Generator</h1>
+      </div>
+      <div class="a child2">
+        <a href="/">HOME</a>
+        <a href="/About">ABOUT</a>
+        <a href="/log">LOGIN</a>
+        <a href="/reg" class="active">REGISTER</a>
+      </div>
+    </nav>
+    <section class="content">
+      <div class="content_form">
+        <form action="/reg" method="post">
+          <input type="text" name="name" placeholder="Username" />
+          <br />
+          <br />
+          <input type="email" name="email" placeholder="email" />
+          <br />
+          <br />
+          <input type="password" name="password" placeholder="Password" />
+          <br />
+          <br />
+          <button type="submit">Register</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

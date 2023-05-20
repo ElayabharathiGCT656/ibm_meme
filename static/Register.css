@@ -1,0 +1,62 @@
+body {
+  margin: 0px !important;
+  padding: 0px !important;
+  background: url("../2.jpg");
+  background-size: cover;
+}
+nav {
+  margin: 0 !important;
+  padding: 0px;
+  border: 1px solid #231885;
+  background-color: #231885;
+  display: flex;
+  flex-direction: row;
+}
+.child1 {
+  flex: 4;
+}
+.child2 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav h1 {
+  color: white;
+}
+.child2 a {
+  flex: 1;
+  font-size: 13px;
+  text-decoration: none;
+  color: white;
+}
+.content {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.child2 .active {
+  color: grey;
+}
+
+input {
+  width: 100%;
+  padding: 6px 10px;
+  border-radius: 5px;
+}
+form {
+  text-align: center;
+}
+button {
+  background-color: #231885;
+  color: white;
+  margin-left: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+button:hover {
+  color: #231885;
+  background-color: white;
+}

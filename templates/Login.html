@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../static/Login.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <div class="child1">
+        <h1 style="margin-left: 5px">Meme Generator</h1>
+      </div>
+      <div class="a child2">
+        <a href="/">HOME</a>
+        <a href="/About">ABOUT</a>
+        <a href="/log" class="active">LOGIN</a>
+        <a href="/reg">REGISTER</a>
+      </div>
+    </nav>
+    <section class="content">
+      <div class="content_form">
+        <form action="/log" method="post">
+          <input type="text" name="email" placeholder="Enter Email" />
+          <br />
+          <br />
+          <input type="password" name="password" placeholder="Enter Password" />
+          <br />
+          <br />
+          <button type="submit">Login</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
